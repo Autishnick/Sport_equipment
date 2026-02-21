@@ -1,0 +1,120 @@
+.payment-form {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  color: #1a1a1a;
+}
+
+.payment-form-total {
+  margin: 0 0 1.5rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.payment-form-total strong {
+  color: #159895;
+  font-size: 1.25rem;
+}
+
+.payment-form-group {
+  margin-bottom: 1.25rem;
+}
+
+.payment-form-group label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.payment-form-group input {
+  width: 100%;
+  padding: 0.65rem 0.9rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.2s;
+}
+
+.payment-form-group input:focus {
+  outline: none;
+  border-color: #159895;
+  box-shadow: 0 0 0 3px rgba(21, 152, 149, 0.2);
+}
+
+.payment-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.payment-form-message {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.payment-form-message--error {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.payment-form-message--success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.payment-form-message--info {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.payment-form-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.payment-form-actions .btn {
+  flex: 1;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+.payment-form-actions .btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.payment-form-actions .btn-primary {
+  background: linear-gradient(135deg, #1a5f7a 0%, #159895 100%);
+  color: #fff;
+}
+
+.payment-form-actions .btn-primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, #159895 0%, #1a5f7a 100%);
+}
+
+.payment-form-actions .btn-secondary {
+  background: #e9ecef;
+  color: #495057;
+}
+
+.payment-form-actions .btn-secondary:hover {
+  background: #dee2e6;
+}

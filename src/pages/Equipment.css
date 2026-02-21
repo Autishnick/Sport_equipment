@@ -1,0 +1,87 @@
+.equipment-page-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.equipment-page .page-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+  color: #1a1a1a;
+}
+
+.equipment-page .page-lead {
+  margin: 0 0 1.5rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.equipment-filter {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.equipment-filter-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.equipment-filter-select {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+.equipment-filter-select:focus {
+  outline: none;
+  border-color: #159895;
+}
+
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.equipment-empty {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+}
+
+.equipment-loading,
+.equipment-fallback {
+  color: #555;
+  margin: 1rem 0;
+}
+
+.equipment-fallback {
+  padding: 0.75rem;
+  background: #fff3cd;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.equipment-seed {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #e7f5ff;
+  border-radius: 8px;
+}
+
+.equipment-seed p { margin: 0 0 0.75rem; }
+
+.equipment-login-hint {
+  padding: 0.75rem 1rem;
+  background: #e7f5ff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}

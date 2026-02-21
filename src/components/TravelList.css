@@ -1,0 +1,73 @@
+.travel-list-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.travel-list-section h2 {
+  margin: 0 0 0.5rem 0;
+  color: #1a5f7a;
+}
+
+.travel-list-empty {
+  padding: 2rem;
+  text-align: center;
+  color: #5a6c7d;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.travel-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.travel-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  border-left: 4px solid #159895;
+}
+
+.travel-list-item-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+}
+
+.travel-list-item-type {
+  font-size: 0.9rem;
+  color: #5a6c7d;
+  padding: 0.2rem 0.5rem;
+  background: rgba(21, 152, 149, 0.1);
+  border-radius: 4px;
+}
+
+.travel-list-item-cost {
+  font-weight: 700;
+  color: #e67e22;
+}
+
+.btn-remove {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+  background: #dee2e6;
+  color: #2c3e50;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-remove:hover {
+  background: #c44;
+  color: #fff;
+}
