@@ -1,0 +1,157 @@
+.rentals-page-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.rentals-page .page-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+  color: #1a1a1a;
+}
+
+.rentals-page .page-lead {
+  margin: 0 0 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.rentals-filter-price {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.rentals-filter-price label {
+  font-weight: 600;
+  color: #333;
+}
+
+.rentals-filter-price input {
+  width: 90px;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.rentals-days {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.rentals-days label {
+  font-weight: 600;
+  color: #333;
+}
+
+.rentals-days input {
+  width: 80px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.rentals-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.rentals-actions .btn {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: opacity 0.2s;
+}
+
+.rentals-actions .btn:hover {
+  opacity: 0.9;
+}
+
+.rentals-actions .btn-primary {
+  background: linear-gradient(135deg, #1a5f7a 0%, #159895 100%);
+  color: #fff;
+}
+
+.rentals-actions .btn-secondary {
+  background: #e9ecef;
+  color: #495057;
+}
+
+.rentals-actions .btn-secondary:hover {
+  background: #dee2e6;
+}
+
+.rentals-section {
+  margin-bottom: 2rem;
+}
+
+.rentals-section-title {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  color: #1a5f7a;
+}
+
+.rentals-loading,
+.rentals-empty {
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.rentals-history-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rentals-history-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.rentals-history-item-past {
+  background: #e9ecef;
+  opacity: 0.9;
+}
+
+.rentals-history-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.rentals-history-date,
+.rentals-history-total,
+.rentals-history-days {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.rentals-history-items {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.btn-sm {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}

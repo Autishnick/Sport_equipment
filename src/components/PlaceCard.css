@@ -1,0 +1,79 @@
+.place-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.place-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #159895;
+}
+
+.place-card-image {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #f8f9fa;
+}
+
+.place-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.place-card-type {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(21, 152, 149, 0.9);
+  color: #fff;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
+
+.place-card-body {
+  padding: 1rem;
+}
+
+.place-card-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.15rem;
+  color: #1a5f7a;
+}
+
+.place-card-desc {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  color: #5a6c7d;
+  line-height: 1.5;
+}
+
+.place-card-cost {
+  margin: 0 0 0.75rem 0;
+  font-weight: 700;
+  color: #e67e22;
+}
+
+.place-card .btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.place-card .btn-primary {
+  background: #159895;
+  color: #fff;
+}
+
+.place-card .btn-primary:hover {
+  background: #1a5f7a;
+}

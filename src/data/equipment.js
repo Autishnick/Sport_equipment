@@ -1,0 +1,111 @@
+/**
+ * Дані обладнання для оренди. Варіант 23 — платформа оренди спортивного обладнання.
+ * sportType використовується для фільтрації (Завдання: фільтрація за типами спорту).
+ */
+export const SPORT_TYPES = {
+  football: 'Футбол',
+  tennis: 'Теніс',
+  skiing: 'Лижі',
+  cycling: 'Велосипед',
+  swimming: 'Плавання',
+  fitness: 'Фітнес',
+};
+
+export const equipment = [
+  {
+    id: 1,
+    name: 'Футбольний м\'яч',
+    sportType: 'football',
+    description: 'Професійний м\'яч для гри на траві та штучному покритті.',
+    pricePerDay: 80,
+    image: 'https://images.unsplash.com/photo-1614632537423-1e6c2e7e0aab?w=400&h=300&fit=crop',
+  },
+  {
+    id: 2,
+    name: 'Воротарські рукавиці',
+    sportType: 'football',
+    description: 'Професійні рукавиці для воротаря, розмір L.',
+    pricePerDay: 60,
+    image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=300&fit=crop',
+  },
+  {
+    id: 3,
+    name: 'Тенісна ракетка',
+    sportType: 'tennis',
+    description: 'Ракетка для великого тенісу, баланс для початківців.',
+    pricePerDay: 120,
+    image: 'https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=400&h=300&fit=crop',
+  },
+  {
+    id: 4,
+    name: 'Набір тенісних м\'ячів',
+    sportType: 'tennis',
+    description: '3 м\'ячі для тренувань на корті.',
+    pricePerDay: 40,
+    image: 'https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?w=400&h=300&fit=crop',
+  },
+  {
+    id: 5,
+    name: 'Лижі та палиці',
+    sportType: 'skiing',
+    description: 'Гірські лижі з кріпленням, палиці включені.',
+    pricePerDay: 350,
+    image: 'https://images.unsplash.com/photo-1551524559-8af4e6624178?w=400&h=300&fit=crop',
+  },
+  {
+    id: 6,
+    name: 'Шолом для лиж',
+    sportType: 'skiing',
+    description: 'Захист голови для гірськолижного спорту.',
+    pricePerDay: 70,
+    image: 'https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=400&h=300&fit=crop',
+  },
+  {
+    id: 7,
+    name: 'Гірський велосипед',
+    sportType: 'cycling',
+    description: 'Велосипед для трас та міста, 21 передача.',
+    pricePerDay: 250,
+    image: 'https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=400&h=300&fit=crop',
+  },
+  {
+    id: 8,
+    name: 'Шолом велосипедний',
+    sportType: 'cycling',
+    description: 'Легкий шолом з вентиляцією, розмір M–L.',
+    pricePerDay: 50,
+    image: 'https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=400&h=300&fit=crop',
+  },
+  {
+    id: 9,
+    name: 'Окуляри для плавання',
+    sportType: 'swimming',
+    description: 'Антитуманні окуляри з УФ-захистом.',
+    pricePerDay: 30,
+    image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=300&fit=crop',
+  },
+  {
+    id: 10,
+    name: 'Ласти та маска',
+    sportType: 'swimming',
+    description: 'Набір для плавання в басейні або відкритій воді.',
+    pricePerDay: 55,
+    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop',
+  },
+  {
+    id: 11,
+    name: 'Гантелі 2 кг пара',
+    sportType: 'fitness',
+    description: 'Неопренові гантелі для фітнесу та аеробіки.',
+    pricePerDay: 45,
+    image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&h=300&fit=crop',
+  },
+  {
+    id: 12,
+    name: 'Килимок для йоги',
+    sportType: 'fitness',
+    description: 'Антиковзний килимок 173×61 см.',
+    pricePerDay: 35,
+    image: 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400&h=300&fit=crop',
+  },
+];
