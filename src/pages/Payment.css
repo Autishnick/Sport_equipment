@@ -1,0 +1,54 @@
+.payment-page-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.payment-page .page-title {
+  margin: 0 0 1.5rem;
+  font-size: 1.75rem;
+  color: #1a1a1a;
+}
+
+.payment-empty {
+  color: #555;
+}
+
+.payment-empty a {
+  color: #159895;
+  font-weight: 600;
+}
+
+.payment-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.payment-summary h3 {
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  color: #333;
+}
+
+.payment-days {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.payment-days label { font-weight: 600; color: #333; }
+.payment-days input {
+  width: 70px;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .payment-layout {
+    grid-template-columns: 1fr;
+  }
+}

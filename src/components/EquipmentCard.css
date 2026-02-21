@@ -1,0 +1,103 @@
+.equipment-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.equipment-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.equipment-card-image {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: #e9ecef;
+}
+
+.equipment-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.equipment-card-sport {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  background: rgba(26, 95, 122, 0.9);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.equipment-card-body {
+  padding: 1.25rem;
+}
+
+.equipment-card-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.equipment-card-desc {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.equipment-card-price {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #159895;
+}
+
+.equipment-card-price .per-day {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #777;
+}
+
+.equipment-card .btn {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.equipment-card .btn-primary {
+  background: linear-gradient(135deg, #1a5f7a 0%, #159895 100%);
+  color: #fff;
+}
+
+.equipment-card .btn-primary:hover {
+  background: linear-gradient(135deg, #159895 0%, #1a5f7a 100%);
+  color: #fff;
+}
+
+.equipment-card .btn-secondary {
+  background: #e9ecef;
+  color: #495057;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.equipment-card .equipment-card-login:hover {
+  background: #dee2e6;
+  color: #495057;
+}

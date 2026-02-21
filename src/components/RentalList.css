@@ -1,0 +1,88 @@
+.rental-list {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.rental-list-empty {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+}
+
+.rental-list-hint {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.rental-list-items {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.rental-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.rental-list-item:last-of-type {
+  border-bottom: none;
+}
+
+.rental-list-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.rental-list-item-name {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.rental-list-item-sport {
+  font-size: 0.85rem;
+  color: #159895;
+}
+
+.rental-list-item-price {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.rental-list-remove {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: #fee2e2;
+  color: #b91c1c;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.rental-list-remove:hover {
+  background: #fecaca;
+  color: #991b1b;
+}
+
+.rental-list-total {
+  padding-top: 1rem;
+  border-top: 2px solid #159895;
+  font-size: 1.1rem;
+  color: #1a1a1a;
+}
+
+.rental-list-total strong {
+  color: #159895;
+}
